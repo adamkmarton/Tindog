@@ -1,0 +1,200 @@
+body {
+  font-style: "Monstserrat";
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-style: "Monstserrat";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/*headings*/
+
+.big-heading {
+  font-style: "Monstserrat";
+  font-size: 3em;
+  line-height: 1.5;
+  font-weight: 900;
+  margin: 2%;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*title section*/
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  position: relative;
+  z-index: 1;
+  height: 40rem;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+/*title image*/
+
+.title-image {
+  transform: rotate(25deg);
+  width: 70%;
+  position: absolute;
+}
+
+.title-download {
+  margin-top: 3em;
+}
+
+/*container padding*/
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/*navbar*/
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.row {
+  margin: 0 5%;
+}
+
+.navbar {
+  padding: 1em 1.5em 1em;
+}
+
+.nav-item {
+  padding: 0em 1.3em;
+}
+
+.nav-link {
+  font-size: 1.2em;
+  font-style: "Monstserrat-Light";
+}
+
+/*download button*/
+
+.download-button {
+  margin: 4% 3% 6%;
+}
+
+/*feature section*/
+
+.feature-box {
+  padding: 5%;
+}
+
+#features {
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.icon {
+  color: #ef8172;
+  margin: 0em 0.5em 0.5em;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonial section */
+
+.testimon-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 1.4em;
+}
+
+#testimonials {
+  font-style: "Monstserrat";
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimon-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 1.4em;
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*pricing section*/
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 1.2em 1.2em 1.2em;
+}
+
+#pricing {
+  padding: 5%;
+}
+
+.pricing-heading {
+  font-size: 2rem;
+}
+
+.price-text {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.pricing-colum {
+  padding: 3% 2%;
+}
+
+/*responsive*/
+
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    height: 60em;
+    text-align: center;
+  }
+}
+
+/*cta section*/
+
+#cta {
+  background-color: #ff4c68;
+  font-style: "Monstserrat";
+  font-weight: 900;
+  color: #fff;
+}
+
+#btn-2 {
+  margin: 1em 1em 1em;
+}
